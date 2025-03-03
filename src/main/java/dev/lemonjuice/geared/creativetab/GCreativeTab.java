@@ -2,9 +2,11 @@ package dev.lemonjuice.geared.creativetab;
 
 import dev.lemonjuice.geared.Geared;
 import dev.lemonjuice.geared.item.GItems;
+import dev.lemonjuice.geared.item.tool.GearSwordItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
@@ -27,6 +29,11 @@ public class GCreativeTab {
             event.accept(GItems.GOLDEN_GEAR.get());
             event.accept(GItems.DIAMOND_GEAR.get());
             event.accept(GItems.NETHERITE_GEAR.get());
+
+            for (DeferredHolder<Item, ? extends Item> item: GItems.ITEMS.getEntries()) {
+                if(item.get() instanceof GearSwordItem)
+                    event.accept(item.get());
+            }
         }
     }
 

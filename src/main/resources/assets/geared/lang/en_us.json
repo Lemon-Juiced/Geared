@@ -6,5 +6,14 @@
   "item.geared.iron_gear": "Iron Gear",
   "item.geared.golden_gear": "Golden Gear",
   "item.geared.diamond_gear": "Diamond Gear",
-  "item.geared.netherite_gear": "Netherite Gear"
+  "item.geared.netherite_gear": "Netherite Gear",
+
+  "item.geared.wooden_gear_sword": "Wooden Gear Sword",
+  "item.geared.stone_gear_sword": "Stone Gear Sword",
+  "item.geared.iron_gear_sword": "Iron Gear Sword",
+  "item.geared.golden_gear_sword": "Golden Gear Sword",
+  "item.geared.diamond_gear_sword": "Diamond Gear Sword",
+  "item.geared.netherite_gear_sword": "Netherite Gear Sword",
+
+  "tooltip.geared.gear_tool": "Right-click to wind up and repair."
 }
