@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "X",
+    "#",
+    "/"
+  ],
+  "key": {
+    "/": {
+      "tag": "c:rods/wooden"
+    },
+    "#": {
+      "item": "geared:wooden_gear"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "geared:wooden_gear_sword",
+    "count": 1
+  }
+}

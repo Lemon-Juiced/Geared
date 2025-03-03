@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "/#/",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "geared:golden_gear"
+    },
+    "/": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "geared:diamond_gear",
+    "count": 1
+  }
+}

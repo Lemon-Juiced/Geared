@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "geared:netherite_gear"
+  },
+  "base": {
+    "item": "geared:diamond_gear_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "geared:netherite_gear_sword"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

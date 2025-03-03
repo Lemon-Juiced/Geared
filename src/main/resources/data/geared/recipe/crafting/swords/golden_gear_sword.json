@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "X",
+    "#",
+    "/"
+  ],
+  "key": {
+    "/": {
+      "tag": "c:rods/wooden"
+    },
+    "#": {
+      "item": "geared:golden_gear"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "geared:golden_gear_sword",
+    "count": 1
+  }
+}

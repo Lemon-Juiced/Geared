@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "/#/",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "geared:diamond_gear"
+    },
+    "/": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "geared:netherite_gear",
+    "count": 1
+  }
+}

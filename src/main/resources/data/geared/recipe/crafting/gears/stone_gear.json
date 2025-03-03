@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "/#/",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "geared:wooden_gear"
+    },
+    "/": {
+      "tag": "minecraft:stone_tool_materials"
+    }
+  },
+  "result": {
+    "id": "geared:stone_gear",
+    "count": 1
+  }
+}
