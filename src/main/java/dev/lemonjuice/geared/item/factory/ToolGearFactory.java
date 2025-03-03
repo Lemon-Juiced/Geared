@@ -1,11 +1,7 @@
 package dev.lemonjuice.geared.item.factory;
 
-import dev.lemonjuice.geared.Geared;
 import dev.lemonjuice.geared.item.tool.*;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tiers;
-import net.neoforged.neoforge.registries.DeferredItem;
-import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.ArrayList;
@@ -19,7 +15,7 @@ public class ToolGearFactory {
             new TierPair("wooden", Tiers.WOOD),
             new TierPair("stone", Tiers.STONE),
             new TierPair("iron", Tiers.IRON),
-            new TierPair("gold", Tiers.GOLD),
+            new TierPair("golden", Tiers.GOLD),
             new TierPair("diamond", Tiers.DIAMOND),
             new TierPair("netherite", Tiers.NETHERITE)
     ));
