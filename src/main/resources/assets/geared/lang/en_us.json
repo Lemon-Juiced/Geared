@@ -1,0 +1,10 @@
+{
+  "itemGroup.geared_items.tab": "Geared",
+
+  "item.geared.wooden_gear": "Wooden Gear",
+  "item.geared.stone_gear": "Stone Gear",
+  "item.geared.iron_gear": "Iron Gear",
+  "item.geared.golden_gear": "Golden Gear",
+  "item.geared.diamond_gear": "Diamond Gear",
+  "item.geared.netherite_gear": "Netherite Gear"
+}
